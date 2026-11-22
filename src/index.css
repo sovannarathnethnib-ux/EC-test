@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Segoe UI", "Noto Sans Khmer", "Khmer OS System", "Aptos", system-ui, sans-serif;
+  color: #1d2b3a;
+  background: #f4f7fb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  --ink: #1d2b3a;
+  --muted: #738396;
+  --line: #dce5ee;
+  --paper: #fff;
+  --canvas: #f4f7fb;
+  --accent: #2f6f9f;
+  --accent-hover: #255a83;
+  --green: #43856e;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  min-width: 360px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button, input { font: inherit; }
+button { cursor: pointer; }
+button:focus-visible, a:focus-visible, input:focus-visible {
+  outline: 3px solid #9690c7;
+  outline-offset: 3px;
+}
+
+::selection { color: #fff; background: #6f699a; }
